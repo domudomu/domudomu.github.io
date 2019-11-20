@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/aos.css">
 
 </head>
 
@@ -77,8 +78,8 @@
             <div class="container d-flex align-items-center text-left pb-5">
                 <div class="row row-grid align-items-center pt-5">
                     <div class="col-12 col-lg-6">
-                        <h1 class="pt-3 pb-3">Unique Value Proposition</h1>
-                        <p class="text-muted pt-3 pb-3">Sub-title expanding on the UVP</p>
+                        <h1 class="py-3">Unique Value Proposition</h1>
+                        <p class="text-muted py-3">Sub-title expanding on the UVP</p>
                         <button type="button" class="btn btn-primary">CONTACT US</button>
                         <button type="button" class="btn btn-link">Watch More<span class="glyphicon glyphicon-play"
                                 aria-hidden="true"></span></button>
@@ -93,10 +94,10 @@
             <section id="opportunity">
                 <div class="container d-flex align-items-center pb-5">
                     <div class="row row-grid align-items-center text-left pt-5">
-                        <div class="col-12 col-lg-6 pb-5">
-                            <h1 class="pt-3 pb-3">Opportunity</h1>
-                            <h5 class="text-muted pt-3 pb-3">Route alignment work can be:</h5>
-                            <ul class="text-muted">
+                        <div data-aos="fade-up" class="col-12 col-lg-6 pb-5">
+                            <h1 class="py-3">Opportunity</h1>
+                            <h5 class="text-muted py-3">Route alignment work can be:</h5>
+                            <ul class="text-muted py-3">
                                 <li>Laborius and manual</li>
                                 <li>Prone to errors and rework</li>
                                 <li>Limited by time constraints</li>
@@ -105,7 +106,7 @@
                             <h5>The traditional approach to linear engineering is time consuming and resource dependant
                             </h5>
                         </div>
-                        <div class="col-12 col-lg-6 d-flex justify-content-center">
+                        <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" class="col-12 col-lg-6 d-flex justify-content-center">
                             <img src="img/group1.png" alt="Group" width="80%">
                         </div>
                     </div>
@@ -113,12 +114,12 @@
             </section>
             <section id="howitworks">
                 <div class="container pb-5">
-                    <div class="row d-flex align-items-center text-center pt-5">
+                    <div data-aos="fade-up" class="row d-flex align-items-center text-center pt-5">
                         <div class="col-12">
-                            <h1 class="pt-3 pb-3">Introducing Alignit</h1>
+                            <h1 class="py-3">Introducing Alignit</h1>
                         </div>
                     </div>
-                    <div class="row d-flex align-items-center text-center pt-5">
+                    <div data-aos="fade-up" class="row d-flex align-items-center text-center pt-5">
                         <div class="col-12 col-lg-3 pb-5">
                             <div class="">
                                 <img src="img/how-1.svg" alt="Input">
@@ -161,25 +162,25 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row d-flex justify-content-center pt-5">
+                    <div data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000" class="row d-flex justify-content-center pt-5">
                         <div class="col-12 col-lg-8">
                             <img src="img/ipad.png" alt="Group" width="100%">
                         </div>
                     </div>
-                    <div class="col text-center">
-                        <h5 class="pt-3 pb-3">Tailored outputs to support option selection and further design</h5>
+                    <div data-aos="fade-up" class="col text-center">
+                        <h5 class="py-3">Tailored outputs to support option selection and further design</h5>
                     </div>
                 </div>
             </section>
             <section id="benefits">
                 <div class="container-fluid d-flex align-items-center justify-content-between pb-5">
                     <div class="row align-items-center text-left pt-5 flex-grow-1">
-                        <div class="col-12 col-lg-6">
+                        <div data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000" class="col-12 col-lg-6">
                             <img src="img/grid-animation.svg" alt="GridAnimation" width="100%">
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <h1 class="pt-3 pb-3 text-center text-md-left">Benefits</h1>
-                            <h5 class="text-muted pt-3 pb-3 text-center text-md-left">We believe we have the potential to:</h5>
+                        <div data-aos="fade-up" class="col-12 col-lg-6">
+                            <h1 class="py-3 text-center text-md-left">Benefits</h1>
+                            <h5 class="text-muted py-3 text-center text-md-left">We believe we have the potential to:</h5>
                             <ul class="text-muted">
                                 <li>Increase confidence in programme and route alignment</li>
                                 <li>Generate optimum alignments with reduced programme this reducing TOTEX</li>
@@ -195,10 +196,10 @@
                 </div>
             </section>
             <section id="contact">
-                <div class="container d-flex align-items-center justify-content-center pb-5">
+                <div data-aos="fade-up" class="container d-flex align-items-center justify-content-center pb-5">
                     <div class="row align-items-center text-center">
                         <div class="col">
-                            <h1 class="pt-3 pb-3">Contact Us</h1>
+                            <h1 class="py-3">Contact Us</h1>
                             <form class="text-left">
                                 <div class="form-group">
                                     <label for="formName">Name</label>
@@ -255,6 +256,8 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 
 </html>
