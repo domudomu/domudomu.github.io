@@ -8,8 +8,9 @@ h1,h2,h3,h4,h5{
 	color: #2962FF;
 }
 @media only screen and (max-width: 500px) {
-	h1 {
-		font-size: 2.5rem;
+	#hero h1 {
+		font-size: 40px;
+		color: #2962FF;
 	}
   }
 body{
@@ -23,6 +24,17 @@ body{
 	border-bottom: 14px solid #2962FF;
 	height: 100%;
 }
+
+@media only screen and (max-width: 500px) {
+	#alignNavbar{
+		padding-right: 1rem;
+	}
+  }
+  @media only screen and (min-width: 501px) {
+	.nav-item{
+		padding-right: 5rem;
+	}
+  }
 
 .responsive{
 	max-width: 540px;

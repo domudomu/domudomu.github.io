@@ -6,7 +6,8 @@
   stroke-dasharray: 1000 1000;
   stroke-dashoffset: 1000;
   animation: dash 10s reverse infinite;
-  animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+  <!-- animation-timing-function: cubic-bezier(0.42,0,0.2,1); -->
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes dash {
