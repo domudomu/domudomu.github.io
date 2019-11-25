@@ -30,7 +30,8 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet"> 
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -43,126 +44,137 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-                    <div class="d-flex flex-grow-1">
-                        <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-                        <a class="navbar-brand d-none d-lg-inline-block pl-5" href="#">
-                                <img src="img/logo.svg" width="104" height="38" alt="Alignit">
-                            </a>
-                        <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
-                            <img src="img/logo.svg" width="104" height="38" alt="Alignit">
-                        </a>
-                        <div class="w-100 text-right">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#alignNavbar">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="collapse navbar-collapse flex-grow-1 text-right" id="alignNavbar">
-                        <ul class="navbar-nav ml-auto flex-nowrap">
-                            <li class="nav-item">
-                                <a href="#howitworks" class="nav-link m-2 menu-item nav-active">HOW IT WORKS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#benefits" class="nav-link m-2 menu-item">BENEFITS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#contact" class="nav-link m-2 menu-item">CONTACT</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-    </header>
-    <main role="main">
-        <section id="hero">
-            <div class="container d-flex align-items-center text-left pb-5">
-                <div class="row row-grid align-items-center pt-5">
-                    <div class="col-12 col-lg-6">
-                        <h1 class="py-3">Unique Value Proposition</h1>
-                        <p class="text-muted py-3">Sub-title expanding on the UVP</p>
-                        <button type="button" class="btn btn-primary">CONTACT US</button>
-                        <button type="button" class="btn btn-link">Watch More<span class="glyphicon glyphicon-play"
-                                aria-hidden="true"></span></button>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                        <img class="responsive" src="img/hero-animation.svg" alt="Animation">
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="d-flex flex-grow-1">
+                <span class="w-100 d-lg-none d-block">
+                    <!-- hidden spacer to center brand on mobile --></span>
+                <a class="navbar-brand d-none d-lg-inline-block pl-5" href="#">
+                    <img src="img/logo.svg" width="104" height="38" alt="Alignit">
+                </a>
+                <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+                    <img src="img/logo.svg" width="104" height="38" alt="Alignit">
+                </a>
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#alignNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
             </div>
-        </section>
-        <div class="background-routes">
-            <section id="opportunity">
-                <div class="container d-flex align-items-center pb-5">
-                    <div class="row row-grid align-items-center text-left pt-5">
-                        <div data-aos="fade-up" class="col-12 col-lg-6 pb-5">
-                            <h1 class="py-3">Opportunity</h1>
-                            <h5 class="text-muted py-3">Route alignment work can be:</h5>
-                            <ul class="text-muted py-3">
-                                <li>Laborius and manual</li>
-                                <li>Prone to errors and rework</li>
-                                <li>Limited by time constraints</li>
-                                <li>Subject to scrutiny of public bodies</li>
-                            </ul>
-                            <h5>The traditional approach to linear engineering is time consuming and resource dependant
-                            </h5>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="alignNavbar">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item">
+                        <a href="#value" class="nav-link m-2 menu-item nav-active">VALUE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#benefits" class="nav-link m-2 menu-item">BENEFITS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link m-2 menu-item">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="background-routes" alt="background">
+        <main id="main" role="main">
+            <section id="hero" class="d-flex align-items-center justify-content-center">
+                <div id="home" class="container text-left py-5">
+                    <div class="row row-grid align-items-center">
+                        <div class="col-12 col-lg-6 pb-3">
+                            <h1 class="py-3">Enabling the rapid discovery of optimum linear infrastructure solutions
+                            </h1>
+                            <p class="text-muted py-3">Generate multiple linear route options quickly with
+                                <b>Alignit</b>,
+                                allowing you to consider all feasible options, improve TOTEX and confidently present the
+                                best routes to your customers. </p>
+                            <button type="button" class="btn btn-primary">REQUEST A DEMO</button>
+                            <!-- <button type="button" class="btn btn-link">Watch a Demo <a href=""><i class="material-icons blue-icon text-center">play_circle_outline</i></a></button> -->
                         </div>
-                        <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" class="col-12 col-lg-6 d-flex justify-content-center">
-                            <img src="img/group1.png" alt="Group" width="80%">
+                        <div class="col-12 col-lg-6 d-flex align-items-center justify-content-end">
+                            <img class="img-fluid" src="img/hero-animation.svg" alt="Animation">
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="opportunity">
+                <div class="container-fluid d-flex align-items-center justify-content-end pmr-0">
+                    <div class="row row-grid align-items-center text-left pt-5" style="margin-right: 0px;">
+                        <div class="col-12 col-lg-6 pb-5 pl-5">
+                            <h1 class="py-3">Alignit is the fast way to see the optimal route options based on your
+                                constraints</h1>
+                            <p>Designed with engineers, we have created a linear route selection solution.</p>
+                            <p>It searches millions of routes and generates the top corridors within minutes.</p>
+                            <p>Giving you the ability to select your preferred alignments and assess the costs in
+                                summary reports, which can be easily shared with customers.</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000"
+                            class="col-12 col-lg-6 d-flex align-items-center justify-content-end"
+                            style="margin-right: 0;">
+                            <img class="img-fluid " id="align-image1" src="img/align-image2.jpg" alt="align-benefits"
+                                width="100%" style="position: absolute;">
+                            <img class="img-fluid" src="img/grid-animation.svg" alt="Grid Animation" width="100%">
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="howitworks">
-                <div class="container pb-5">
+            <section id="value">
+                <div class="container pb-3">
                     <div data-aos="fade-up" class="row d-flex align-items-center text-center pt-5">
                         <div class="col-12">
-                            <h1 class="py-3">Introducing Alignit</h1>
+                            <h1 class="py-3">Value</h1>
                         </div>
                     </div>
-                    <div data-aos="fade-up" class="row d-flex align-items-center text-center pt-5">
-                        <div class="col-12 col-lg-3 pb-5">
-                            <div class="">
-                                <img src="img/how-1.svg" alt="Input">
+                    <div data-aos="fade-up" class="row d-flex align-items-start text-center pt-5">
+                        <div class="col-12 col-md-6 col-lg-3 pb-5">
+                            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                                <img src="img/value-icon-1.svg" alt="Input">
                                 <div class="card-body">
-                                    <img class="p-3" src="img/badge-1.svg" alt="1">
-                                    <h5 class="card-title">Input</h5>
-                                    <p class="card-text">Choose a start and end point for your alignment on an intuitive
-                                        mapping interface</p>
+                                    <!-- <img class="p-3" src="img/badge-1.svg" alt="1"> -->
+                                    <h5 class="card-title">Faster</h5>
+                                    <p class="card-text">We can generate millions of routes within minutes, helping you
+                                        get to an alignment much faster </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-3 pb-5">
-                            <div class="">
-                                <img src="img/how-2.svg" alt="Detail">
+                        <div class="col-12 col-md-6 col-lg-3 pb-5">
+                            <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                                <img src="img/value-icon-2.svg" alt="Detail">
                                 <div class="card-body">
-                                    <img class="p-3" src="img/badge-2.svg" alt="2">
-                                    <h5 class="card-title">Detail</h5>
-                                    <p class="card-text">Specify constraint weightings in granular detail and change them on the fly using multiple scenarios</p>
+                                    <!-- <img class="p-3" src="img/badge-2.svg" alt="2"> -->
+                                    <h5 class="card-title">Defensible</h5>
+                                    <p class="card-text">Contraint scorings enable you to see the best route options for
+                                        your project </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-3 pb-5">
-                            <div class="">
-                                <img src="img/how-3.svg" alt="Analyse">
+                        <div class="col-12 col-md-6 col-lg-3 pb-5">
+                            <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                                <img src="img/value-icon-3.svg" alt="Analyse">
                                 <div class="card-body">
-                                    <img class="p-3" src="img/badge-3.svg" alt="3">
-                                    <h5 class="card-title">Analyse</h5>
-                                    <p class="card-text">Alignit uses an algorithm to assess millions of routes and generates multiple corridors within minutes</p>
+                                    <!-- <img class="p-3" src="img/badge-3.svg" alt="3"> -->
+                                    <h5 class="card-title">Reduces Low</br> Value Work</h5>
+                                    <p class="card-text">Get to the more in-depth analysis faster and reduce the
+                                        laborious elements of optioneering </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-3 pb-5">
-                            <div class="">
-                                <img src="img/how-4.svg" alt="Design">
+                        <div class="col-12 col-md-6 col-lg-3 pb-5">
+                            <div data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+                                <img src="img/value-icon-4.svg" alt="Design">
                                 <div class="card-body">
-                                    <img class="p-3" src="img/badge-4.svg" alt="4">
-                                    <h5 class="card-title">Design</h5>
-                                    <p class="card-text">Export your alignments into traditional design software and create a summary report with costings</p>
+                                    <!-- <img class="p-3" src="img/badge-4.svg" alt="4"> -->
+                                    <h5 class="card-title">TOTEX Improvement</h5>
+                                    <p class="card-text">By generating better alignments we can help you reduce
+                                        programme TOTEX costs </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000" class="row d-flex justify-content-center pt-5">
+                    <div data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"
+                        class="row d-flex justify-content-center pt-5">
                         <div class="col-12 col-lg-8">
                             <img src="img/ipad.png" alt="Group" width="100%">
                         </div>
@@ -172,83 +184,239 @@
                     </div>
                 </div>
             </section>
-            <section id="benefits">
+            <!-- <section id="benefits">
                 <div class="container-fluid d-flex align-items-center justify-content-between pb-5">
                     <div class="row align-items-center text-left pt-5 flex-grow-1">
-                        <div data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000" class="col-12 col-lg-6">
+                        <div data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"
+                            class="order-2 col-12 col-lg-6">
                             <img src="img/grid-animation.svg" alt="GridAnimation" width="100%">
+                            <img id="align-image2" src="img/align-image3.jpg" alt="Align Challenge" style="position: absolute;">
                         </div>
-                        <div data-aos="fade-up" class="col-12 col-lg-6">
+                        <div data-aos="fade-up" class="col-12 col-lg-6 order-1 pl-5">
                             <h1 class="py-3 text-center text-md-left">Benefits</h1>
-                            <h5 class="text-muted py-3 text-center text-md-left">We believe we have the potential to:</h5>
-                            <ul class="text-muted">
-                                <li>Increase confidence in programme and route alignment</li>
-                                <li>Generate optimum alignments with reduced programme this reducing TOTEX</li>
-                                <li>React quickly to changes in constraints: re-run route alignment assessments in
-                                    minutes</li>
-                                <li>Remove at least 15% of low value work, increasing efficiency in delivery</li>
+                            <h5 class="text-muted py-3 text-center text-md-left">We believe we have the potential to:
+                            </h5>
+                            <ul class="text-muted py-3">
+                                <p><i class="material-icons">
+                                        arrow_right
+                                    </i>Increase confidence in programme and route alignment</p>
+                                <p><i class="material-icons">
+                                        arrow_right
+                                    </i>Generate optimum alignments with reduced programme this reducing TOTEX</p>
+                                <p><i class="material-icons">
+                                        arrow_right
+                                    </i>React quickly to changes in constraints: re-run route alignment assessments in
+                                    minutes</p>
+                                <p><i class="material-icons">
+                                        arrow_right
+                                    </i>Remove at least 15% of low value work, increasing efficiency in delivery</p>
                             </ul>
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center py-3">
                                 <button type="button" class="btn btn-primary">FIND OUT MORE</button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="contact">
-                <div data-aos="fade-up" class="container d-flex align-items-center justify-content-center pb-5">
-                    <div class="row align-items-center text-center">
-                        <div class="col">
-                            <h1 class="py-3">Contact Us</h1>
-                            <form class="text-left">
-                                <div class="form-group">
-                                    <label for="formName">Name</label>
-                                    <input type="text" class="form-control" id="formGroupExampleInput">
-                                </div>
-                                <div class="form-group">
-                                    <label for="formEmail">Email</label>
-                                    <input type="text" class="form-control" id="formGroupExampleInput2">
-                                </div>
-                                <div class="form-group">
-                                    <label for="formMessage">Message</label>
-                                    <textarea type="text" class="form-control" id="formGroupExampleInput2"></textarea>
-                                </div>
-                            </form>
+            </section> -->
+            <section id="benefits" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
+                <div id="benefits-container"
+                    class="container-fluid d-flex align-items-center justify-content-center pb-5">
+                    <div class="row row-grid d-flex align-items-center text-left pt-5">
+                        <div class="col-12 col-lg-6 d-flex align-items-center justify-content-end order-2">
+                            <!-- <img src="img/graph-graphic2.jpg" alt="Graph 2"  style="position: absolute;"> -->
+                            <img data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000"
+                                src="img/grid-animation.svg" alt="Grid Animation" width="100%">
+                            <img data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1000"
+                                src="img/graph-graphic3.png" alt="Graph 1" width="100%" style="position: absolute;">
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="600"
+                            class="col-12 col-lg-6 order-1 pb-5 px-1 order-1">
+                            <h1 class="py-3 text-center text-md-left">Benefits</h1>
+                            <h5 class="text-white py-3 text-center text-md-left">We believe we have the potential to:
+                            </h5>
+                            <ul class="text-white py-3 px-0">
+                                <p class="d-flex align-items-center"><i class="material-icons white-icon">
+                                        arrow_right
+                                    </i>Increase confidence in programme and route alignment</p>
+                                <p class="d-flex align-items-center"><i class="material-icons white-icon">
+                                        arrow_right
+                                    </i>Generate optimum alignments with reduced programme this reducing TOTEX</p>
+                                <p class="d-flex align-items-center"><i class="material-icons white-icon">
+                                        arrow_right
+                                    </i>React quickly to changes in constraints: re-run route alignment assessments in
+                                    minutes</p>
+                                <p class="d-flex align-items-center"><i class="material-icons white-icon">
+                                        arrow_right
+                                    </i>Remove at least 15% of low value work, increasing efficiency in delivery</p>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </section>
-            <nav class="navbar navbar-expand-sm navbar-dark bg-dark border-bottom border-white">
-                    <ul class="navbar-nav mr-auto pl-5 pt-5 pb-5">
-                        <li class="nav-item active pl-5 pr-5">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item pl-5 pr-5">
-                            <a class="nav-link" href="#">How it Works</a>
-                        </li>
-                        <li class="nav-item pl-5 pr-5">
-                            <a class="nav-link" href="#">Benefits</a>
-                        </li>
-                        <li class="nav-item pl-5 pr-5">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                    <a class="navbar-brand d-none d-lg-inline-block pr-5" href="#">
-                                            <img src="img/logo-white.svg" width="80" height="auto" alt="Alignit">
-                                        </a>
-                            </li>
-                        </ul>
-            </nav>
-            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <ul class="navbar-nav ml-auto">
+            <section id="contact">
+                <div class="container py-5" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="form-title">Contact</h2>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-center">
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 pb-5">
+
+                            <form id="contact-form" name="myForm" class="form" action="#"
+                                onsubmit="return validateForm()" method="POST" role="form">
+
+                                <div class="form-group">
+                                    <label class="form-label" id="nameLabel" for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" name="name" tabindex="1">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" id="emailLabel" for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" tabindex="2">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" id="messageLabel" for="message">Message</label>
+                                    <textarea rows="6" cols="60" name="message" class="form-control" id="message"
+                                        tabindex="4"></textarea>
+                                </div>
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                                </div>
+                            </form><!-- End form -->
+                        </div><!-- End col -->
+                    </div><!-- End row -->
+                    <div class="row d-flex text-center justify-content-center">
+                        <div class="px-3 py-3 d-flex align-items-center">
+                            <i class="material-icons pr-3">email</i><a
+                                href="mailto:alignit@jacobs.com">alignit@jacobs.com</a>
+                        </div>
+                        <div class="px-3 py-3 d-flex align-items-center">
+                            <i class="material-icons pr-3">phone</i><a href="tel:877-255-7945">877-255-7945</a>
+                        </div>
+                    </div>
+                </div><!-- End container -->
+                <!-- <div class="container pb-5">
+                    <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
+                        class="row d-flex justify-content-center pb-5">
+                        <h1 class="py-3">Contact Us</h1>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputEmail4">Name</label>
+                                        <input type="email" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputPassword4">Email</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress">Message</label>
+                                    <textarea type="text" class="form-control" id="inputAddress"></textarea>
+                                </div>
+                                <div class="row no-gutters d-flex justify-content-center">
+                                    <button type="button" onclick="SaveForm();" class="btn btn-primary">SUBMIT</button>
+                                </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000"
+                        class="row d-flex text-center justify-content-center">
+                        <div class="px-3 d-flex align-items-center">
+                            <i class="material-icons pr-3">email</i><a
+                                href="mailto:alignit@jacobs.com">alignit@jacobs.com</a>
+                        </div>
+                        <div class="px-3 d-flex align-items-center">
+                            <i class="material-icons pr-3">phone</i><a href="tel:877-255-7945">877-255-7945</a>
+                        </div>
+                    </div>
+                </div> -->
+
+            </section>
+            <footer class="container-fluid navbar-dark bg-dark pt-5 text-white">
+                    <div class="container">
+                       <div class="row">
+                          <div class="col-md-6">
+                             <div class="row">
+                                <div class="col-md-6 ">
+                                   <div class="logo-part d-flex align-items-center">
+                                      <img class="px-1" src="img/logo-white.svg" width="80" height="auto" alt="Alignit">
+                                   </div>
+                                   <div class="logo-part d-flex align-items-center">
+                                        <img class="px-1" src="img/jacobs-logo-white.svg" width="80" height="auto" alt="Jacobs" href="https://www.jacobs.com">
+                                     </div>
+                                   <p>Developed & Owned by Jacobs®</p>
+                                </div>
+                                <div class="col-md-6 p-4" style="border-right: solid white 1px">
+                                   <h6 style="font-weight: bold"> About Company</h6>
+                                   <p>Jacobs are lorem ipsum, some information about Jacobs Digital Solutions in here</p>
+                                   <a href="mailto:alignit@jacobs.com" class="btn-footer"> Contact Us</a>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-md-6">
+                             <div class="row">
+                                <div class="col-md-6 px-4">
+                                   <h6 style="font-weight: bold">Alignit</h6>
+                                   <div class="row ">
+                                      <div class="col-md-6">
+                                         <ul>
+                                            <li> <a href="#home"> Home</a> </li>
+                                            <li> <a href="#value"> Value</a> </li>
+                                            <li> <a href="#benefits"> Benefits</a> </li>
+                                            <li> <a href="#contact"> Contact</a> </li>
+                                         </ul>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                    </div>
+                    
+            <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark border-bottom border-white">
+                <ul class="navbar-nav mr-auto pl-5 pt-5 pb-5">
+                    <li class="nav-item active pl-5 pr-5">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item pl-5 pr-5">
+                        <a class="nav-link" href="#">How it Works</a>
+                    </li>
+                    <li class="nav-item pl-5 pr-5">
+                        <a class="nav-link" href="#">Benefits</a>
+                    </li>
+                    <li class="nav-item pl-5 pr-5">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                            <a class="navbar-brand d-none d-lg-inline-block pr-5 text-white" href="#">©2019 - Jacobs  |   All right reserved</a>
+                        <a class="navbar-brand d-none d-lg-inline-block pr-5" href="#">
+                            <img src="img/logo-white.svg" width="80" height="auto" alt="Alignit">
+                        </a>
+                        <a class="navbar-brand d-none d-lg-inline-block pr-5" href="#">
+                            <img src="img/jacobs-logo-white.svg" width="80" height="auto" alt="Jacobs">
+                        </a>
+                    </li>
+                </ul>
+            </nav> -->
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        
                     </li>
                 </ul>
             </nav>
-        </div>
+    </div>
     </main>
 
 
@@ -257,7 +425,17 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/aos.js"></script>
-    <script>AOS.init();</script>
+    <script src="js/simpleParallax.min.js"></script>
+    <script>
+        var image = document.getElementsByClassName('img-fluid');
+        new simpleParallax(image, {
+            delay: .6,
+            transition: 'cubic-bezier(0,0,0,1)'
+        });
+    </script>
+    <script>AOS.init({
+            once: true,
+        });</script>
 </body>
 
 </html>

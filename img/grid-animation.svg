@@ -1,4 +1,4 @@
-<svg width="600px" height="600px" viewBox="0 0 578 578" xmlns="http://www.w3.org/2000/svg" style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;version:1">
+<svg width="800px" height="800px" viewBox="0 0 578 578" xmlns="http://www.w3.org/2000/svg" style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;version:1">
   <style>.a{fill:#2962ff;}
 @keyframes pulse {
   from {
@@ -16,6 +16,7 @@
   animation-iteration-count: infinite;
   animation-name: pulse;
   fill: #2962FF;
+  mix-blend-mode: difference;
   transition: #F50057;#2962FF;
 }
 .pulse2{
@@ -24,6 +25,7 @@
   animation-name: pulse;
   animation-delay: 1.5s;
   fill: #2962FF;
+  mix-blend-mode: difference;
 }
 .pulse3{
   animation-duration: 10s;
@@ -31,6 +33,7 @@
   animation-name: pulse;
   animation-delay: 3s;
   fill: #2962FF;
+  mix-blend-mode: difference;
 }
 </style>
   <circle cx="296.6" cy="473.3" r="2.2" class="pulse1"/>
