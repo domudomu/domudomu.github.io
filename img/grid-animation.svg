@@ -1,6 +1,6 @@
 <svg width="800px" height="800px" viewBox="0 0 578 578" xmlns="http://www.w3.org/2000/svg" style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;version:1">
   <style>.a{fill:#2962ff;}
-@keyframes pulse {
+<!-- @keyframes pulse {
   from {
     r: 2.4px;
   }
@@ -34,7 +34,7 @@
   animation-delay: 3s;
   fill: #2962FF;
   mix-blend-mode: difference;
-}
+} -->
 </style>
   <circle cx="296.6" cy="473.3" r="2.2" class="pulse1"/>
   <circle cx="42.4" cy="473.3" r="2.2" class="pulse1"/>
