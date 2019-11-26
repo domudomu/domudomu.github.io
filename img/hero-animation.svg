@@ -1,6 +1,7 @@
 <svg width="100%" height="100%" viewBox="0 0 553 476" xmlns="http://www.w3.org/2000/svg" stroke-linejoin="round">
   <img src="C:\Design\StrawberryLaces\One Pager Assets\Map2.png"/>
   <style>.a{fill-opacity:0.5;fill:#2962ff;}.b{fill:none;stroke-width:2px;stroke:#F50057;}.c{fill:#FFFFFF; stroke:#2962ff;stroke-width: 3px}
+  .pulse1{fill:#2962ff;}.pulse2{fill:#2962ff;}.pulse3{fill:#2962ff;}
   .animate
   {stroke-dasharray: 1000;
   stroke-dasharray: 1000 1000;
@@ -49,7 +50,7 @@
   animation-iteration-count: infinite;
   animation-name: coords;
 }
-.pulse1{
+<!-- .pulse1{
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-name: pulse;
@@ -69,7 +70,7 @@
   animation-name: pulse;
   animation-delay: 3s;
   fill: #2962FF;
-}
+} -->
 }}</style>
   <circle cx="296.6" cy="473.3" r="2.2" class="pulse1"/>
   <circle cx="42.4" cy="473.3" r="2.2" class="pulse1"/>

@@ -1,5 +1,5 @@
 <svg width="800px" height="800px" viewBox="0 0 578 578" xmlns="http://www.w3.org/2000/svg" style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;version:1">
-  <style>.a{fill:#2962ff;}
+  <style>.a{fill:#2962ff;}.pulse1{fill:#2962ff;}.pulse2{fill:#2962ff;}.pulse3{fill:#2962ff;}
 <!-- @keyframes pulse {
   from {
     r: 2.4px;
